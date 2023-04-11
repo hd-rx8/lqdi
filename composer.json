@@ -1,0 +1,20 @@
+{
+    "name": "composer/arquivo",
+    "description": "composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Composer\\Arquivo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hd-rx8",
+            "email": "hendrixgarcia.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "sendgrid/sendgrid": "^8.0",
+        "phpmailer/phpmailer": "^6.8"
+    }
+}
